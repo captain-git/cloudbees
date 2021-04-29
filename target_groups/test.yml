@@ -1,0 +1,6 @@
+type: target-group
+name: test
+conditions:
+  - operator: semver-gte
+    property: rox.app_release
+    operand: '7.8'
