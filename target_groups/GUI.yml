@@ -1,0 +1,10 @@
+type: target-group
+name: GUI
+conditions:
+  - operator: in-array
+    property: Product
+    operand:
+      - Homeworks
+  - operator: semver-gte
+    property: rox.app_release
+    operand: '20.7'
