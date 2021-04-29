@@ -1,0 +1,11 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+labels: archived
+flag: Test
+conditions:
+  - property:
+      name: Channel
+      operator: gte
+      operand: 1
+    value: true
+value: false

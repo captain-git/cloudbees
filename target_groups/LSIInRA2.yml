@@ -1,0 +1,11 @@
+type: target-group
+name: LSIInRA2
+conditions:
+  - operator: in-array
+    property: Product
+    operand:
+      - RA2
+  - operator: in-array
+    property: Channel
+    operand:
+      - LSI

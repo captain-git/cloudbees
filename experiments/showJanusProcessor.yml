@@ -1,0 +1,11 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+flag: showJanusProcessor
+conditions:
+  - property:
+      name: systemType
+      operator: in-array
+      operand:
+        - Homeworks
+    value: false
+value: true

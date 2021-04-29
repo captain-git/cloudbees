@@ -1,0 +1,14 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+labels: archived
+flag: Athena.NewFlag
+conditions:
+  - version:
+      operator: semver-eq
+      semver: '21.5'
+    property:
+      name: Channel
+      operator: eq
+      operand: HWQS
+    value: true
+value: false

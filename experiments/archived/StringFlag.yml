@@ -1,0 +1,18 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+labels: archived
+enabled: false
+flag: StringFlag
+availableValues:
+  - Value1
+  - Value2
+  - IPL
+  - LEAP
+conditions:
+  - property:
+      name: Product
+      operator: in-array
+      operand:
+        - RA3
+    value: Value2
+value: Value1

@@ -1,0 +1,9 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+labels: archived
+flag: Athena.TestFalg
+conditions:
+  - group:
+      name: LSIInRA2
+    value: true
+value: false

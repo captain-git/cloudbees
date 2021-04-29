@@ -1,0 +1,11 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+flag: enableDaliCCT
+conditions:
+  - property:
+      name: Product
+      operator: in-array
+      operand:
+        - Homeworks
+    value: true
+value: false
