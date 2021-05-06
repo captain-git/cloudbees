@@ -1,6 +1,5 @@
-# This file was edited by Cloudbees Feature Flags
+# This file was edited by Cloudbees Feature Management
 type: experiment
-labels: archived
 flag: Athena.NewFlag
 conditions:
   - version:
