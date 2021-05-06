@@ -9,5 +9,5 @@ conditions:
       name: Channel
       operator: eq
       operand: HWQS
-    value: true
-value: false
+    value: false
+value: true
