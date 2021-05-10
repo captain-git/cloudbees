@@ -5,5 +5,5 @@ conditions:
   - group:
       operator: and
       name: AlphaUsers
-    value: false
-value: true
+    value: true
+value: false
