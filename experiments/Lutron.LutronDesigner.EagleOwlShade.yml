@@ -1,4 +1,9 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
 flag: Lutron.LutronDesigner.EagleOwlShade
+conditions:
+  - group:
+      operator: and
+      name: AlphaUsers
+    value: false
 value: true
