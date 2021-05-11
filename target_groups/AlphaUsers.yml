@@ -4,4 +4,4 @@ conditions:
   - operator: in-array
     property: userguid
     operand:
-      - aedgs-sdfs
+      - 1f48a864-094e-40fd-8e37-57b252b3463e
