@@ -6,4 +6,4 @@ conditions:
       operator: and
       name: AlphaUsers
     value: true
-value: false
+value: true
