@@ -1,5 +1,6 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
-labels: archived
+labels:
+  - archived
 flag: Lutron.LutronDesigner.EagleOwl
 value: false
