@@ -1,4 +1,4 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
 flag: dualRadioProcessor
-value: false
+value: true
