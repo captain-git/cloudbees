@@ -1,0 +1,9 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+enabled: false
+flag: LutronDesigner.IsRa3WallMountProcEnabled
+conditions:
+  - group:
+      name: LSIInRA2
+    value: false
+value: false
