@@ -1,0 +1,10 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+enabled: false
+flag: LutronDesigner.InFixtureDaylighting
+conditions:
+  - dependency:
+      flag: LutronDesigner.HerculesController
+      value: 'true'
+    value: true
+value: false
