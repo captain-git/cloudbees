@@ -2,5 +2,7 @@
 type: experiment
 flag: LutronDesigner.HerculesController
 conditions:
-  - value: true
+  - group:
+      name: AlphaUsers
+    value: true
 value: false
