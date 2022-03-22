@@ -5,5 +5,5 @@ conditions:
   - dependency:
       flag: LutronDesigner.HerculesController
       value: 'true'
-    value: true
+    value: false
 value: false
